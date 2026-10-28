@@ -1,0 +1,12 @@
+{
+  "file": "outputs/lab02/quarantine.json",
+  "sha256": "edd0e32908a941403e2211c2ddecd5e02839eeb989560614956fb566877464b8",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "02",
+    "run_id": "7f71ffbcaba248b39e970e7ae91639d1",
+    "captured_at": "2026-10-27T09:42:05.011858+00:00",
+    "stage": "quarantine"
+  }
+}

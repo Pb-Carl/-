@@ -1,0 +1,29 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "02",
+    "run_id": "2485232202a14e0a807c90547a72dc2d",
+    "captured_at": "2026-10-27T09:43:54.740692+00:00",
+    "stage": "student_quality_policy"
+  },
+  "result": null,
+  "artifacts": [
+    {
+      "file": "outputs/lab02/student-policy-1200.json",
+      "sha256": "39a5119b6f76b00258b9265f1c40815e74a582a743d5027c875515472d0f261e",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "02",
+        "run_id": "2485232202a14e0a807c90547a72dc2d",
+        "captured_at": "2026-10-27T09:43:54.740692+00:00",
+        "stage": "student_quality_policy"
+      }
+    }
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"max_input_tokens\": 1200,\n  \"raw_rows\": 20102,\n  \"valid_unique\": 13405,\n  \"duplicates\": 67,\n  \"rejected_by_reason\": {\n    \"policy_input_limit\": 6628,\n    \"invalid_input_tokens\": 1,\n    \"invalid_event_time\": 1\n  },\n  \"input_tokens_sum\": 8110488,\n  \"probe_errors\": {\n    \"negative\": \"invalid_input_tokens\",\n    \"numeric_string\": \"invalid_input_tokens\",\n    \"naive_time\": \"non_utc_time\"\n  },\n  \"_evidence\": {\n    \"schema_version\": 1,\n    \"student_id\": \"2410311319\",\n    \"experiment_id\": \"02\",\n    \"run_id\": \"2485232202a14e0a807c90547a72dc2d\",\n    \"captured_at\": \"2026-10-27T09:43:54.740692+00:00\",\n    \"stage\": \"student-policy-1200\"\n  }\n}\n",
+  "stderr": ""
+}

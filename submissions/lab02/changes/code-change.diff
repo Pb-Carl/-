@@ -1,0 +1,20 @@
+--- student_quality_policy.py
++++ student_quality_policy.py
+@@ -9,7 +9,7 @@
+ from coursekit.common import DATA, OUT, write_json
+ from coursekit.evidence import capture_callable
+ 
+-MAX_INPUT_TOKENS = 2000  # 本人将它改为 1200，先预测再运行。
++MAX_INPUT_TOKENS = 1200  # 在个人副本中收紧政策，课程 Silver 保持原规则。
+ 
+ 
+ def policy(row):
+@@ -38,7 +38,7 @@
+             kept[row["event_id"]] = row
+     probes = {
+         "negative": {**records[0], "input_tokens": -1},
+-        "boolean": {**records[0], "input_tokens": True},
++        "numeric_string": {**records[0], "input_tokens": "100"},
+         "naive_time": {**records[0], "event_time": "2026-03-01T12:00:00"},
+     }
+     result = {

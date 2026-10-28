@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "06",
+    "run_id": "94d3e060d2d643c48cd3ddf026d276bd",
+    "captured_at": "2026-10-27T09:56:50.427405+00:00",
+    "stage": "after-selection"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    ".\\submissions\\lab06\\evidence_probe_03.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{'qid': 'd01', 'refused': False, 'hit_cosines': [('quota', 0.628), ('queue', 0.078), ('budget', 0.059)], 'citations': ['quota'], 'answer_chars': 84, 'citation_exists': True}\n{'qid': 'd11', 'refused': False, 'hit_cosines': [('upload', 0.293), ('cache', 0.219), ('citation', 0.047)], 'citations': ['upload', 'cache'], 'answer_chars': 187, 'citation_exists': True}\n{'qid': 'd05', 'refused': True, 'hit_cosines': [('quota', 0.034), ('cache', 0.024), ('access', 0.027)], 'citations': [], 'answer_chars': 20, 'citation_exists': None}\n",
+  "stderr": ""
+}

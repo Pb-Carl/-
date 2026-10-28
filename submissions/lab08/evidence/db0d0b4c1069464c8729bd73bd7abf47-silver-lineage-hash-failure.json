@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "08",
+    "run_id": "db0d0b4c1069464c8729bd73bd7abf47",
+    "captured_at": "2026-10-27T10:04:10.411382+00:00",
+    "stage": "silver-lineage-hash-failure"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    ".\\submissions\\lab08\\silver_lineage_probe.py"
+  ],
+  "exit_code": 0,
+  "stdout": "POSITIVE {'silver_sha256': '516b3d78aab91c1487d9a24979eaef514c5acb7309d0d82a6688a762836634dc', 'rows': 20000, 'manifest_sha256': '1dffe071e94a27c1f49c7d6aae7cb827a9ddb4f09f91cbdbb1fe8451ce5f7044', 'replay_run_id': '176b871976a2'}\nEXPECTED_FAILURE Silver Parquet hash differs from manifest\n",
+  "stderr": ""
+}

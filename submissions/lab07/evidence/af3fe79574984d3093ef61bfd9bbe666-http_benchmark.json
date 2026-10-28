@@ -1,0 +1,96 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "07",
+    "run_id": "af3fe79574984d3093ef61bfd9bbe666",
+    "captured_at": "2026-10-27T10:02:35.141950+00:00",
+    "stage": "http_benchmark"
+  },
+  "result": {
+    "requests": 20,
+    "concurrency": 1,
+    "errors": 0,
+    "error_rate": 0.0,
+    "wall_seconds": 0.29447890003211796,
+    "throughput_requests_per_second": 67.91658077308308,
+    "p50_ms": 14.490900008240715,
+    "p95_ms": 16.68367999373004,
+    "cache_hits": 18,
+    "cache_hit_rate": 0.9,
+    "server_metrics_before": {
+      "requests": 1,
+      "errors": 0,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "latency_sample_n": 1,
+      "latency_p50_ms": 12.571100029163063,
+      "latency_p95_ms": 12.571100029163063,
+      "cache_entries": 0,
+      "scope": "当前单进程，含健康检查；耗时窗口最多10000请求",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "07",
+        "run_id": "33ec105bee8841c5af9bfe265e2c1b15",
+        "captured_at": "2026-10-27T10:02:08.076188+00:00",
+        "stage": "metrics-4d8c96863c0c"
+      },
+      "evidence_json_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-metrics-4d8c96863c0c.json",
+      "evidence_html_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-metrics-4d8c96863c0c.html"
+    },
+    "server_metrics_after": {
+      "requests": 22,
+      "errors": 0,
+      "cache_hits": 18,
+      "cache_misses": 2,
+      "latency_sample_n": 22,
+      "latency_p50_ms": 13.433450018055737,
+      "latency_p95_ms": 16.29972501541488,
+      "cache_entries": 2,
+      "scope": "当前单进程，含健康检查；耗时窗口最多10000请求",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "07",
+        "run_id": "33ec105bee8841c5af9bfe265e2c1b15",
+        "captured_at": "2026-10-27T10:02:08.076188+00:00",
+        "stage": "metrics-60a329bb4a7e"
+      },
+      "evidence_json_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-metrics-60a329bb4a7e.json",
+      "evidence_html_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-metrics-60a329bb4a7e.html"
+    },
+    "health": {
+      "status": "ready",
+      "index_version": "e6a6b9a795a122df0ffa6598e7e4a1bd7de93ab3a08c29f1f0dfb50f6c69c5eb",
+      "data_version": "386bb12fb56fb2ed0e7e503fb640b73a497ebc04f72a31a152aa82cee0f5b47b",
+      "authentication": "simulated_role_loopback_only",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "07",
+        "run_id": "33ec105bee8841c5af9bfe265e2c1b15",
+        "captured_at": "2026-10-27T10:02:08.076188+00:00",
+        "stage": "health-3b50c6f117c7"
+      },
+      "evidence_json_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-health-3b50c6f117c7.json",
+      "evidence_html_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-health-3b50c6f117c7.html"
+    },
+    "limitations": "串行本机HTTP测量，不是最大承载量；摘录服务耗时不是LLM推理耗时。"
+  },
+  "artifacts": [
+    {
+      "file": "outputs/lab07/load_test.json",
+      "sha256": "7afb4067533f0523d72d4800df954bb06d2356779237729df6a96de6c33e6b7f",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "07",
+        "run_id": "af3fe79574984d3093ef61bfd9bbe666",
+        "captured_at": "2026-10-27T10:02:35.141950+00:00",
+        "stage": "load_test"
+      }
+    }
+  ]
+}

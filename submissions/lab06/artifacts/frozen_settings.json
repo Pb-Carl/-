@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generator": "extractive",
+  "threshold": 0.13,
+  "k": 3,
+  "code_path": "C:\\Users\\PengBo\\Documents\\Codex\\2026-10-22\\wo-x\\work\\BDP\\coursekit\\intelligence.py",
+  "code_sha256": "5306af51726fc808923ab113f161dac71533a85dec90bf077928e8c0454bdbb2",
+  "code_dependencies": {
+    "common.py": "47f00ce51a514fa45e62cc8bb47e1f5bf66405dda4a313b9d9c8f287e1abcfee",
+    "model_config.py": "72495d5b3f90fb740b35ced063cc8b12b638b2715a44e8a052b97977c31a3e8c",
+    "artifact_identity.py": "c95f198a532159d571c440e20d4ee652def9eca770b5f4665794e9cb2d68df3c"
+  },
+  "index_sha256": "965538cd2da445f0b6869227c9b72ed51f3b475c6fcb591d497f9eefb06c8858",
+  "questions_sha256": "80ca80137952f0d8c4ab74a9544984f4862436397569b06c4644c51a8edafe39",
+  "index_version": "e6a6b9a795a122df0ffa6598e7e4a1bd7de93ab3a08c29f1f0dfb50f6c69c5eb",
+  "data_version": "386bb12fb56fb2ed0e7e503fb640b73a497ebc04f72a31a152aa82cee0f5b47b",
+  "retrieval_mode": "lexical",
+  "embedding_model_id": "character-bigram-tfidf",
+  "embedding_model_revision": "coursekit-v1",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "06",
+    "run_id": "599b82b6ae1b43f9b105406b661052bd",
+    "captured_at": "2026-10-27T09:56:51.214801+00:00",
+    "stage": "frozen_settings"
+  }
+}

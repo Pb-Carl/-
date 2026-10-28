@@ -1,0 +1,147 @@
+{
+  "kind": "coursekit.submission",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "04",
+    "run_id": "f8ec9780e257401aa6822c2d03330066",
+    "captured_at": "2026-10-28T02:18:01.209472+00:00",
+    "stage": "submission"
+  },
+  "report": {
+    "file": "report.md",
+    "sha256": "0a692daf12a05445270f67625bed878d81f72b4f4435404bb75bff2b7ab7c3e3"
+  },
+  "files": [
+    {
+      "file": "2410311319-24计科3-彭博-实验四.docx",
+      "sha256": "dd523db9f879429dfaa51f5c7877ccdc5847707ee9e16ebefaf62c653eacdbaa"
+    },
+    {
+      "file": "2410311319-24计科3-彭博-实验四.pdf",
+      "sha256": "90c9e1924e091cf3b0307fbc868177a402c0b981afbbe3052bacb8a7ff56250f"
+    },
+    {
+      "file": "AI使用记录.md",
+      "sha256": "b579f988950521c37a41db09e0097bfe73c2e0e04c40e2bb2f1975a873fb346c"
+    },
+    {
+      "file": "artifacts/latest.json",
+      "sha256": "992a826a6521a21188235dd9d1de6063ebb84d509fb9f16bc760057683b5135e"
+    },
+    {
+      "file": "artifacts/replay.json",
+      "sha256": "5e8e668e82e0dd87ca0a3602257aa849e4257be3aeb0528a3280d18b5019154e"
+    },
+    {
+      "file": "changes/code-change.diff",
+      "sha256": "305f84a82fb459ecbef08bd63366a22a200b31f33356a42ef26b18a8010e26a7"
+    },
+    {
+      "file": "changes/student_atomicity.py",
+      "sha256": "837ceac4df5faa153939d0a88e9848174198a2fc5e4dc72d3a14f6f75466d7c2"
+    },
+    {
+      "file": "evidence/566ce38f7e2d4370809456b2fc635dca-student_atomicity.html",
+      "sha256": "6cf1ac58d84d0360d1ec5367884c1a0e89ce07071c3cabb79206539aaa1c0c40"
+    },
+    {
+      "file": "evidence/566ce38f7e2d4370809456b2fc635dca-student_atomicity.json",
+      "sha256": "781aef852390c1764b2b1039b536c06301309b88c7441eeaab21cf99ea6fd05f"
+    },
+    {
+      "file": "evidence/566ce38f7e2d4370809456b2fc635dca-student_atomicity.png",
+      "sha256": "222c86134532076859a6a4cb2db544b78181e2edb71ebe376dfee691cf508ef3"
+    },
+    {
+      "file": "evidence/a2278c14f15140c1814701ec1580f3b8-verify.html",
+      "sha256": "8fd8f4937a05cf8f3a3e3b1ab7cea4e91d953cfedb3f8fabf964c4b983c09e96"
+    },
+    {
+      "file": "evidence/a2278c14f15140c1814701ec1580f3b8-verify.json",
+      "sha256": "05c799ba7662efb2fd60fc8e607196b9509f3eb356997de5af78289e052330f6"
+    },
+    {
+      "file": "evidence/a2278c14f15140c1814701ec1580f3b8-verify.png",
+      "sha256": "469dd6893e48f0d670b7c1dd413fdd60e5292a8f0caaba745d1ab7c17bdcd6cd"
+    },
+    {
+      "file": "evidence/a5ccb87c4b5248f2bfeaaeae3bbbd589-student_atomicity.html",
+      "sha256": "dc6f25bec839cba491df29d75b4c0d342cf1ff5923df36573ed4806d2f2065d5"
+    },
+    {
+      "file": "evidence/a5ccb87c4b5248f2bfeaaeae3bbbd589-student_atomicity.json",
+      "sha256": "6b2de2c1a08e44b96a3f4eb268e921eb649567ca6301b7d82333f412d4c13698"
+    },
+    {
+      "file": "evidence/a5ccb87c4b5248f2bfeaaeae3bbbd589-student_atomicity.png",
+      "sha256": "70aa3d89692e983fbf31b555dbd4104ba341d0dd16e79b9d5515b0b612422c23"
+    },
+    {
+      "file": "prediction.md",
+      "sha256": "b0fe4e4b6a88fdd160ce12ac3ff9410e826506e0a9a1a942a00135c10b589100"
+    },
+    {
+      "file": "report.md",
+      "sha256": "0a692daf12a05445270f67625bed878d81f72b4f4435404bb75bff2b7ab7c3e3"
+    },
+    {
+      "file": "student_atomicity.py",
+      "sha256": "837ceac4df5faa153939d0a88e9848174198a2fc5e4dc72d3a14f6f75466d7c2"
+    }
+  ],
+  "runs": [
+    {
+      "file": "evidence/566ce38f7e2d4370809456b2fc635dca-student_atomicity.json",
+      "sha256": "781aef852390c1764b2b1039b536c06301309b88c7441eeaab21cf99ea6fd05f",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "04",
+        "run_id": "566ce38f7e2d4370809456b2fc635dca",
+        "captured_at": "2026-10-27T09:50:31.543260+00:00",
+        "stage": "student_atomicity"
+      }
+    },
+    {
+      "file": "evidence/a2278c14f15140c1814701ec1580f3b8-verify.json",
+      "sha256": "05c799ba7662efb2fd60fc8e607196b9509f3eb356997de5af78289e052330f6",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "04",
+        "run_id": "a2278c14f15140c1814701ec1580f3b8",
+        "captured_at": "2026-10-27T09:48:44.628765+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/a5ccb87c4b5248f2bfeaaeae3bbbd589-student_atomicity.json",
+      "sha256": "6b2de2c1a08e44b96a3f4eb268e921eb649567ca6301b7d82333f412d4c13698",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "04",
+        "run_id": "a5ccb87c4b5248f2bfeaaeae3bbbd589",
+        "captured_at": "2026-10-27T09:50:00.521546+00:00",
+        "stage": "student_atomicity"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "evidence/566ce38f7e2d4370809456b2fc635dca-student_atomicity.png",
+      "sha256": "222c86134532076859a6a4cb2db544b78181e2edb71ebe376dfee691cf508ef3"
+    },
+    {
+      "file": "evidence/a2278c14f15140c1814701ec1580f3b8-verify.png",
+      "sha256": "469dd6893e48f0d670b7c1dd413fdd60e5292a8f0caaba745d1ab7c17bdcd6cd"
+    },
+    {
+      "file": "evidence/a5ccb87c4b5248f2bfeaaeae3bbbd589-student_atomicity.png",
+      "sha256": "70aa3d89692e983fbf31b555dbd4104ba341d0dd16e79b9d5515b0b612422c23"
+    }
+  ],
+  "status": "pending_teacher_screenshot_review",
+  "note": "提交清单仅用于材料预检查，须经授课老师逐张复核后方可验收。"
+}

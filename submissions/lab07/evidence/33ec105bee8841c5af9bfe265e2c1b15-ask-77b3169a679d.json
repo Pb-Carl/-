@@ -1,0 +1,52 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "07",
+    "run_id": "33ec105bee8841c5af9bfe265e2c1b15",
+    "captured_at": "2026-10-27T10:02:08.076188+00:00",
+    "stage": "ask-77b3169a679d"
+  },
+  "result": {
+    "tool": "service_stats",
+    "data_version": "d9d4eb24264819b20d5e64a86138b075df3efb0664a677c7a507e9b6d9f5466c",
+    "rows": [
+      {
+        "service": "assistant",
+        "requests": 14009,
+        "input_tokens": 12633388,
+        "output_tokens": 4310320
+      },
+      {
+        "service": "batch",
+        "requests": 2023,
+        "input_tokens": 1816567,
+        "output_tokens": 616515
+      },
+      {
+        "service": "search",
+        "requests": 3970,
+        "input_tokens": 3568992,
+        "output_tokens": 1219714
+      }
+    ],
+    "index_version": "e6a6b9a795a122df0ffa6598e7e4a1bd7de93ab3a08c29f1f0dfb50f6c69c5eb",
+    "knowledge_data_version": "386bb12fb56fb2ed0e7e503fb640b73a497ebc04f72a31a152aa82cee0f5b47b",
+    "role": "public",
+    "question": "查询实时服务统计",
+    "refused": false,
+    "cache_hit": false,
+    "_evidence": {
+      "schema_version": 1,
+      "student_id": "2410311319",
+      "experiment_id": "07",
+      "run_id": "33ec105bee8841c5af9bfe265e2c1b15",
+      "captured_at": "2026-10-27T10:02:08.076188+00:00",
+      "stage": "ask-77b3169a679d"
+    },
+    "evidence_json_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-ask-77b3169a679d.json",
+    "evidence_html_url": "/evidence-files/33ec105bee8841c5af9bfe265e2c1b15-ask-77b3169a679d.html"
+  },
+  "artifacts": []
+}

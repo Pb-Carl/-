@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "07",
+    "run_id": "ec50a9a6eb734ff39aa9697ca1da2001",
+    "captured_at": "2026-10-27T10:00:19.712829+00:00",
+    "stage": "after-phrase"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    ".\\submissions\\lab07\\http_probe.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"health\": {\n    \"status\": 200,\n    \"index_version\": \"e6a6b9a795a122df0ffa6598e7e4a1bd7de93ab3a08c29f1f0dfb50f6c69c5eb\"\n  },\n  \"stats\": {\n    \"status\": 200,\n    \"rows\": 3\n  },\n  \"new_phrase\": {\n    \"status\": 200,\n    \"tool\": \"service_stats\",\n    \"rows_equal\": true,\n    \"cache_hit\": false\n  },\n  \"unsupported\": {\n    \"status\": 200,\n    \"tool\": null,\n    \"refused\": true\n  },\n  \"invalid_role\": {\n    \"status\": 422,\n    \"detail\": \"1 validation error:\\n  {'type': 'literal_error', 'loc': ('body', 'role'), 'msg': \\\"Input should be 'public' or 'internal'\\\", 'input': 'administrator', 'ctx': {'expected': \\\"'public' or\"\n  },\n  \"metrics\": {\n    \"requests\": 5,\n    \"errors\": 1\n  },\n  \"response_run_ids\": [\n    \"d0c4d6b7756943ad88bad372d41b56fa\",\n    \"d0c4d6b7756943ad88bad372d41b56fa\",\n    \"d0c4d6b7756943ad88bad372d41b56fa\",\n    \"d0c4d6b7756943ad88bad372d41b56fa\",\n    \"d0c4d6b7756943ad88bad372d41b56fa\",\n    \"d0c4d6b7756943ad88bad372d41b56fa\"\n  ]\n}\n",
+  "stderr": ""
+}

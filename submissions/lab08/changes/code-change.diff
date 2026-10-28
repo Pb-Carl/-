@@ -1,0 +1,37 @@
+--- governance_before.py
++++ governance.py
+@@ -20,6 +20,24 @@
+     """Release decisions must remain enforced when Python assertions are disabled."""
+     if not condition:
+         raise ValueError(message)
++
++
++def silver_lineage_check(silver_path=None, manifest_path=None, latest_path=None):
++    """Check the actual cleaned file against its manifest and replay source."""
++    import pyarrow.parquet as pq
++
++    silver_path = Path(silver_path) if silver_path is not None else DATA / 'silver/events.parquet'
++    manifest_path = Path(manifest_path) if manifest_path is not None else DATA / 'manifests/silver.json'
++    latest_path = Path(latest_path) if latest_path is not None else DATA / 'state/latest.json'
++    manifest = read_json(manifest_path)
++    latest = read_json(latest_path)
++    actual_sha = sha256(silver_path)
++    require_check(actual_sha == manifest['silver_sha256'], 'Silver Parquet hash differs from manifest')
++    require_check(actual_sha == latest['source_sha256'], 'Replay source differs from current Silver Parquet')
++    actual_rows = pq.read_metadata(silver_path).num_rows
++    require_check(actual_rows == manifest['rows'], 'Silver Parquet row count differs from manifest')
++    return {'silver_sha256': actual_sha, 'rows': actual_rows,
++            'manifest_sha256': sha256(manifest_path), 'replay_run_id': latest['run_id']}
+ 
+ 
+ def identity_evidence_check():
+@@ -236,7 +254,8 @@
+     for name, operation in [("identity_evidence", identity_evidence_check), ("artifact_integrity", manifest_check), ("permission_boundary", permission_check),
+                             ("injection_quarantine", injection_check), ("version_and_cache", version_check),
+                             ("replay_and_rollback", validate_replay_state), ("frozen_test_evaluation", evaluation_check),
+-                            ("http_service_evidence", service_check)]:
++                            ("http_service_evidence", service_check),
++                            ("silver_lineage", silver_lineage_check)]:
+         check(name, operation)
+     passed = all(row["passed"] for row in checks)
+     report = {"created_at": datetime.now(timezone.utc).isoformat(), "release_ready": passed, "serving_generator": "extractive",

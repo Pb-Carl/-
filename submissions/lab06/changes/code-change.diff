@@ -1,0 +1,13 @@
+--- intelligence_before.py
++++ intelligence.py
+@@ -351,7 +351,9 @@
+               "citations": [], "answer": "当前可访问资料中没有足够依据，无法回答。"}
+     if reason:
+         return result
+-    evidence = hits[:min(2, len(hits))]
++    evidence = hits[:1]
++    if len(hits) > 1 and hits[1]["lexical_cosine"] >= 0.18:
++        evidence.append(hits[1])
+     citations = [{"doc_id": h["doc_id"], "version": h["version"], "chunk_id": h["chunk_id"]} for h in evidence]
+     if generator == "extractive":
+         result["answer"] = "证据摘录（非大语言模型）：\n" + "\n".join(

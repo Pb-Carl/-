@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "08",
+    "run_id": "5fade3a1e38343f999eb26cee075a8f6",
+    "captured_at": "2026-10-27T10:03:43.622828+00:00",
+    "stage": "quarantine-probe"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    ".\\submissions\\lab08\\quarantine_probe.py"
+  ],
+  "exit_code": 0,
+  "stdout": "BASELINE {'status': 'quarantined', 'untrusted_in_index': False, 'sentinel_in_index': False}\nCHANGED {'status': 'approved', 'untrusted_in_index': True, 'sentinel_in_index': True}\nRESTORED {'status': 'quarantined', 'untrusted_in_index': False, 'sentinel_in_index': False}\n",
+  "stderr": ""
+}

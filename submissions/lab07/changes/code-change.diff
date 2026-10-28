@@ -1,0 +1,11 @@
+--- service_before.py
++++ service.py
+@@ -97,7 +97,7 @@
+     student = require_identity()
+     index = current_index()  # Validate before every cache lookup.
+     normalized = ' '.join(question.split())
+-    use_stats = normalized in {'查询实时服务统计', '各服务有多少请求'}
++    use_stats = normalized in {'查询实时服务统计', '各服务有多少请求', '查看平台请求统计'}
+     stats = stats_payload(index) if use_stats else None
+     key = cache_key(normalized, role, index['source_sha256'], index['index_version'],
+                     stats_version=stats['data_version'] if stats else '',

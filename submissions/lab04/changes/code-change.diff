@@ -1,0 +1,11 @@
+--- student_atomicity.py
++++ student_atomicity.py
+@@ -10,7 +10,7 @@
+ from coursekit.common import OUT, write_json
+ from coursekit.evidence import capture_callable
+ 
+-COMMIT_EARLY = True  # 本人改为 False；先预测失败后的行数与检查点。
++COMMIT_EARLY = False  # 数据与检查点必须在同一事务中提交。
+ 
+ 
+ def apply(con, fail=False):

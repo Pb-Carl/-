@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "06",
+    "run_id": "f1ea17b127a347b8814701b91e2d86a5",
+    "captured_at": "2026-10-27T09:56:27.067573+00:00",
+    "stage": "threshold-sweep"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    ".\\submissions\\lab06\\evidence_probe_02.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{'threshold': 0.05, 'answerable_accept_rate': 1.0, 'unanswerable_refusal_rate': 1.0, 'decision_accuracy': 1.0}\n{'threshold': 0.13, 'answerable_accept_rate': 1.0, 'unanswerable_refusal_rate': 1.0, 'decision_accuracy': 1.0}\n{'threshold': 0.4, 'answerable_accept_rate': 0.6666666666666666, 'unanswerable_refusal_rate': 1.0, 'decision_accuracy': 0.75}\n",
+  "stderr": ""
+}

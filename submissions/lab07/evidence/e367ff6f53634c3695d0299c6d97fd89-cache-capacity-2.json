@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "07",
+    "run_id": "e367ff6f53634c3695d0299c6d97fd89",
+    "captured_at": "2026-10-27T10:01:33.343448+00:00",
+    "stage": "cache-capacity-2"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    ".\\submissions\\lab07\\cache_capacity_probe.py"
+  ],
+  "exit_code": 0,
+  "stdout": "[\n  {\n    \"question\": \"模拟服务的用户配额是多少？\",\n    \"status\": 200,\n    \"cache_hit\": false,\n    \"refused\": false,\n    \"run_id\": \"fb8b5a6c105a41eebdfe5b04360fca78\"\n  },\n  {\n    \"question\": \"上传材料有什么要求？\",\n    \"status\": 200,\n    \"cache_hit\": false,\n    \"refused\": false,\n    \"run_id\": \"fb8b5a6c105a41eebdfe5b04360fca78\"\n  },\n  {\n    \"question\": \"缓存键应包含什么？\",\n    \"status\": 200,\n    \"cache_hit\": false,\n    \"refused\": false,\n    \"run_id\": \"fb8b5a6c105a41eebdfe5b04360fca78\"\n  },\n  {\n    \"question\": \"模拟服务的用户配额是多少？\",\n    \"status\": 200,\n    \"cache_hit\": false,\n    \"refused\": false,\n    \"run_id\": \"fb8b5a6c105a41eebdfe5b04360fca78\"\n  }\n]\n",
+  "stderr": ""
+}

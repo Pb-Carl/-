@@ -1,0 +1,179 @@
+{
+  "kind": "coursekit.submission",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311319",
+    "experiment_id": "03",
+    "run_id": "4d30edf67cae4c8dac00f6ee1242bf5f",
+    "captured_at": "2026-10-28T02:18:00.780094+00:00",
+    "stage": "submission"
+  },
+  "report": {
+    "file": "report.md",
+    "sha256": "4021d924b2b1826b752c1536a9ef3ca8cd2f75c5e004f3468d2bc89d13350676"
+  },
+  "files": [
+    {
+      "file": "2410311319-24计科3-彭博-实验三.docx",
+      "sha256": "c2d91bec4e548b14242d715b728573ab1563ab858b693a1961d491879b23ee39"
+    },
+    {
+      "file": "2410311319-24计科3-彭博-实验三.pdf",
+      "sha256": "85d81f9a82f8a2f6005e29c44aa3b93ea83d92513363cb75efa13ef0b7c5d54b"
+    },
+    {
+      "file": "AI使用记录.md",
+      "sha256": "f6ce9924e4e24d720b625970a84deeb4866c63b77f47203b012d3abb7dfe53e9"
+    },
+    {
+      "file": "artifacts/benchmark.json",
+      "sha256": "e5bb32300971bf38368481cb99316015bdaa6adfe6c89d4e8ef0a5830d2b8ed4"
+    },
+    {
+      "file": "artifacts/student-latency-2000.json",
+      "sha256": "603fb1b763d514d8a05cdd1cde36f3960400a3776427074520224f88d10e7b72"
+    },
+    {
+      "file": "artifacts/student-latency-2000.json.identity.json",
+      "sha256": "1a944354c117e2752d9dae8bcefd822da48d605c6f5b4f9cac54db1bc23cfb42"
+    },
+    {
+      "file": "changes/code-change.diff",
+      "sha256": "ab2acb8fb3de0e23ea1b779b23ae0f7d99747b144f660fbcdb9e581196549638"
+    },
+    {
+      "file": "changes/student_latency_aggregate.py",
+      "sha256": "4728730f18ffb32e67d6db63b28521d92cec9ccbd8af5aa5c85e82608ace4cd5"
+    },
+    {
+      "file": "evidence/3abaa0363162465e9b68c5604f4d55f5-student_latency.html",
+      "sha256": "619da9701ab17c9fcd6a8eb9e463a95725644267dcc225e16c341729e703ba65"
+    },
+    {
+      "file": "evidence/3abaa0363162465e9b68c5604f4d55f5-student_latency.json",
+      "sha256": "974814221e9613031a879bcad0e9cc3d925657c4c1b6c0059c7675ea86ea3cb0"
+    },
+    {
+      "file": "evidence/3abaa0363162465e9b68c5604f4d55f5-student_latency.png",
+      "sha256": "3e6bf657d0cc1420b3946498a2fe6e2bb0177a2fa4981b45b02ce94ec30d7b12"
+    },
+    {
+      "file": "evidence/6f2ec52817164ac28203feb26b9a9ea3-verify.html",
+      "sha256": "79970dac06c88a224cad2790df9a50e550d807fb0e464fa42d94b52e3528d240"
+    },
+    {
+      "file": "evidence/6f2ec52817164ac28203feb26b9a9ea3-verify.json",
+      "sha256": "2d44d28f494fc50ca3b13f570e40890046afb236abd96b63565a9124634d24d6"
+    },
+    {
+      "file": "evidence/6f2ec52817164ac28203feb26b9a9ea3-verify.png",
+      "sha256": "b6b1a6713bbdec1185a9c3a6626a100236597c11efd83646c86b4969c7e833cd"
+    },
+    {
+      "file": "evidence/827458ca52a84d5db902b324a5616cb7-expected-failure.html",
+      "sha256": "b9b609a6fbf5de599aa169b3a888deac699f1f96dd0dd901d6405f5fc7e6cd81"
+    },
+    {
+      "file": "evidence/827458ca52a84d5db902b324a5616cb7-expected-failure.json",
+      "sha256": "aafb167f362f27d8e871391b548ff132493a598d35443b3a5f225edec5cac24c"
+    },
+    {
+      "file": "evidence/827458ca52a84d5db902b324a5616cb7-expected-failure.png",
+      "sha256": "a30ce8deb63616519802fd48011a03b6539e919fe764ada9379a178f7b54a972"
+    },
+    {
+      "file": "evidence/ce30ba3b6bda48b8a428018479c13e9a-verify.html",
+      "sha256": "61befc4346dcfdadb51f5b02afd9611503dff49bdb1408f52e4681714579691c"
+    },
+    {
+      "file": "evidence/ce30ba3b6bda48b8a428018479c13e9a-verify.json",
+      "sha256": "6d7a9665ac4760fe1a445a635eb5b53db6bb38a8a3ffe452acf8ea64e2bfc6a3"
+    },
+    {
+      "file": "evidence/ce30ba3b6bda48b8a428018479c13e9a-verify.png",
+      "sha256": "261744526f389e2979769fc569959ccd4cd5e34004a50ec1c941e57efa72608b"
+    },
+    {
+      "file": "prediction.md",
+      "sha256": "747c947a80be4712b7516454c4b04bc01930af1d11a3ac8fbc463061699777da"
+    },
+    {
+      "file": "report.md",
+      "sha256": "4021d924b2b1826b752c1536a9ef3ca8cd2f75c5e004f3468d2bc89d13350676"
+    },
+    {
+      "file": "student_latency_aggregate.py",
+      "sha256": "4728730f18ffb32e67d6db63b28521d92cec9ccbd8af5aa5c85e82608ace4cd5"
+    }
+  ],
+  "runs": [
+    {
+      "file": "evidence/3abaa0363162465e9b68c5604f4d55f5-student_latency.json",
+      "sha256": "974814221e9613031a879bcad0e9cc3d925657c4c1b6c0059c7675ea86ea3cb0",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "03",
+        "run_id": "3abaa0363162465e9b68c5604f4d55f5",
+        "captured_at": "2026-10-27T09:47:52.375813+00:00",
+        "stage": "student_latency"
+      }
+    },
+    {
+      "file": "evidence/6f2ec52817164ac28203feb26b9a9ea3-verify.json",
+      "sha256": "2d44d28f494fc50ca3b13f570e40890046afb236abd96b63565a9124634d24d6",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "03",
+        "run_id": "6f2ec52817164ac28203feb26b9a9ea3",
+        "captured_at": "2026-10-27T09:45:28.399939+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/827458ca52a84d5db902b324a5616cb7-expected-failure.json",
+      "sha256": "aafb167f362f27d8e871391b548ff132493a598d35443b3a5f225edec5cac24c",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "03",
+        "run_id": "827458ca52a84d5db902b324a5616cb7",
+        "captured_at": "2026-10-27T09:48:14.751567+00:00",
+        "stage": "expected-failure"
+      }
+    },
+    {
+      "file": "evidence/ce30ba3b6bda48b8a428018479c13e9a-verify.json",
+      "sha256": "6d7a9665ac4760fe1a445a635eb5b53db6bb38a8a3ffe452acf8ea64e2bfc6a3",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311319",
+        "experiment_id": "03",
+        "run_id": "ce30ba3b6bda48b8a428018479c13e9a",
+        "captured_at": "2026-10-27T09:45:59.242656+00:00",
+        "stage": "verify"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "evidence/3abaa0363162465e9b68c5604f4d55f5-student_latency.png",
+      "sha256": "3e6bf657d0cc1420b3946498a2fe6e2bb0177a2fa4981b45b02ce94ec30d7b12"
+    },
+    {
+      "file": "evidence/6f2ec52817164ac28203feb26b9a9ea3-verify.png",
+      "sha256": "b6b1a6713bbdec1185a9c3a6626a100236597c11efd83646c86b4969c7e833cd"
+    },
+    {
+      "file": "evidence/827458ca52a84d5db902b324a5616cb7-expected-failure.png",
+      "sha256": "a30ce8deb63616519802fd48011a03b6539e919fe764ada9379a178f7b54a972"
+    },
+    {
+      "file": "evidence/ce30ba3b6bda48b8a428018479c13e9a-verify.png",
+      "sha256": "261744526f389e2979769fc569959ccd4cd5e34004a50ec1c941e57efa72608b"
+    }
+  ],
+  "status": "pending_teacher_screenshot_review",
+  "note": "提交清单仅用于材料预检查，须经授课老师逐张复核后方可验收。"
+}

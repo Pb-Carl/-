@@ -1,0 +1,17 @@
+--- intelligence_before.py
++++ intelligence_before.py
+@@ -263,7 +263,13 @@
+         raise ValueError("Unknown retrieval method")
+     index = load_index() if index is None else index
+     # Filter BEFORE ranking, so private hits cannot occupy public top-k or reach the generator.
+-    allowed = [i for i, c in enumerate(index["chunks"]) if role == "internal" or c["visibility"] == "public"]
++    allowed = []
++    for i, chunk in enumerate(index["chunks"]):
++        visibility = chunk.get("visibility")
++        if visibility not in {"public", "internal"}:
++            continue
++        if visibility == "public" or role == "internal":
++            allowed.append(i)
+     if not allowed:
+         return []
+     query_counts = Counter(terms(question))
