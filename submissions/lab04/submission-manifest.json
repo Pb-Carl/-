@@ -22,10 +22,6 @@
       "sha256": "90c9e1924e091cf3b0307fbc868177a402c0b981afbbe3052bacb8a7ff56250f"
     },
     {
-      "file": "AI使用记录.md",
-      "sha256": "b579f988950521c37a41db09e0097bfe73c2e0e04c40e2bb2f1975a873fb346c"
-    },
-    {
       "file": "artifacts/latest.json",
       "sha256": "992a826a6521a21188235dd9d1de6063ebb84d509fb9f16bc760057683b5135e"
     },
